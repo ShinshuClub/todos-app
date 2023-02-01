@@ -1,0 +1,19 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "name": "Attach to packager2",
+      "request": "attach",
+      "type": "reactnative",
+      "cwd": "${workspaceFolder}",
+      "port": 19000
+    },
+    {
+      "type": "chrome",
+      "request": "launch",
+      "name": "Chrome2",
+      "url": "http://localhost:19006",
+      "webRoot": "${workspaceFolder}"
+    }
+  ]
+}
